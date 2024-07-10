@@ -16,11 +16,13 @@ I ragazzi avranno la possibilità di imparare i **concetti di base della program
     - [Guerre Stellari: Costruisci una Galassia con il codice](#guerre-stellari-costruisci-una-galassia-con-il-codice)
     - [Altre ore del codice](#altre-ore-del-codice)
   - [Momento 2 - Calculator](#momento-2---calculator)
-  - [Momento 3 - App a Scelta](#momento-3---app-a-scelta)
-    - [Progetti Consigliati](#progetti-consigliati)
-      - [Music Box](#music-box)
-      - [Canzoniere](#canzoniere)
-  - [Momento 4 (Jolly) - App Debugging](#momento-4-jolly---app-debugging)
+  - [Momento 3 - Design App](#momento-3---design-app)
+  - [Momento 4 - Implementazione App](#momento-4---implementazione-app)
+  - [Momento 5 (Jolly) - App Debugging](#momento-5-jolly---app-debugging)
+  - [Installare le App sui Raspberry Pi.](#installare-le-app-sui-raspberry-pi)
+  - [Appendice - Materiale Workshop 2022](#appendice---materiale-workshop-2022)
+    - [Music Box](#music-box)
+    - [Canzoniere](#canzoniere)
 
 ## Metariale
 
@@ -161,46 +163,37 @@ Durante il momento 2 i ragazzi creeranno una semplice app Calcolatrice. Il momen
 
 Non e' necessario che tutti arrivino a finire la calcolatrice in tempo con tutte le operazioni, ma almeno la somma deve essere implementata.
 
-## Momento 3 - App a Scelta
+## Momento 3 - Design App
 
-Il momento e' libero e permette ai ragazzi di finire il loro progetto.
-Durante questo momento e' possibile far completare la calcolatrice ai ragazzi che non l'hanno finita.
+In questo momento c'e' da far fare ai ragazzi un po' di brainstorming per realizzare l'app che andra' a far parte della caccia al tesoro.
 
-Vengono mostrate alcune app di esempio ai ragazzi (vedi sotto), spiegando alcune funzioni _avanzate_ di AppLab. I ragazzi devono scegliere se:
+E' importante che l'app sia semplice e che possa essere completata dai ragazzi.
+Cose da fare attenzione durante il brainstorming:
 
-* Finire e migliorare la loro calcolatrice
-* Re-implementare uno dei progetti consigliati
-* Creare un'app ex-novo partendo da una loro idea.
+* L'app non deve essere troppo complessa (es. un videogioco e' troppo complesso).
+* Raccogliere l'idee dei ragazzi e cercare di semplificarle in quello che sia effettivamente realizzabile, senza andare a distruggere la loro creativita'.
+* Fra tutti i gruppi deve esserci un minimo di varietà (es. non vogliamo 5x cluedo).
+* Assicurarsi che i ragazzi riescano a dividere il lavoro e che tutti abbiano qualcosa da fare.
 
-E' molto importante capire il livello dei ragazzi e assicurarsi che ognuno stia facendo qualcosa di adeguato alle proprie capacita'.
+I ragazzi usano il quaderno per disegnare l'interfaccia dell'app e scrivere le funzionalita' che deve avere.
 
-Se il livello generale e' troppo basso, valutare di non lasciare liberta' ai ragazzi ma consigliare solamente un'app da re-implementare.
+## Momento 4 - Implementazione App
 
-### Progetti Consigliati
+Durante il momento 4 si va ad implementare l'app che i ragazzi hanno disegnato.
 
-Qui un elenco di app che ho scritto su AppLab e che possono essere utili per i ragazzi come idea da re-implementare.
+Esempi di App realizzate in passato:
 
-#### Music Box
-![Screenshot Musicbox](https://i.imgur.com/SHDytA5.png)
+* [App 1 - Space Shooter](https://studio.code.org/projects/applab/Ot20uAhNagNig0WI24g-ZG0S3G6pPAt3wPOFjsKR3lM/edit)
+* [App 2 - Gioco dell'Oca](https://studio.code.org/projects/applab/lFWewHIBZcbSjex_PwLURaHJ8H1MulowZKuaON3TMx8/edit)
+* [App 3 - Stick fighter](https://studio.code.org/projects/applab/97dJjpWIv1BsnWcClO81NqHFTT_82jztNKxTJZAO9NY/edit)
+* [App 4 - Cluedo](https://studio.code.org/projects/applab/ChxIU0MgVtepveS0aHrxSsaL9vQI_TGfoCq3lz8QDxU/edit)
 
-[Codice Sorgente Musicbox](https://studio.code.org/projects/applab/xWSObAhlbYO5gReJ303ct-5IalL5Gz5m-YyQmvP-Qc0)
+Assicurarsi che i ragazzi che si occupano della grafica e dell'audio:
+* Utilizzino sono png, jpg o gif (**non svg**).
+* Utilizzino solo file audio in formato mp3.
+* Non mandino file troppo pesanti che senno' ci mettono troppo a caricare.
 
-Questa e' carina perche' e' in tema Star Wars ed utilizza immagini e musiche.
-
-L'app consiste in una serie di bottoni con immagini per ogni personaggio di star wars. Alla pressione del pulsante un suono deve essere riprodotto.
-
-**IMPORTANTE**: Assicurarsi di avere a disposizione gli assett (immagini/audio) da condividere sulla cartella per i ragazzi (si possono scaricare dall'app).
-
-#### Canzoniere
-![Screenshot Canzoniere](https://i.imgur.com/7DgXoee.png)
-
-[Codice Sorgente Canzoniere](https://studio.code.org/projects/applab/l9mHY61G9sF27C7zFKzD6TLDCrbWpxNqRMDJO2vAzO8)
-
-L'app canzoniere e' piu' complessa. Utilizza un DB chiave/valore per salvare alcune canzoni scout. Permette ai ragazzi di visulizzare la lista di canzoni ed eventualmente di aggiungerne di nuove.
-
-**IMPORTANTE**: Assicurarsi che i ragazzi che la vogliano implementare siano abbastanza in gamba in modo da non rimanere bloccati.
-
-## Momento 4 (Jolly) - App Debugging
+## Momento 5 (Jolly) - App Debugging
 
 Se avanza tempo o c'e' da riempire dei buchi, e' possibile far fare ai ragazzi un attivita' di bug reporting di PRBMM.
 
@@ -213,3 +206,50 @@ Far scrivere sul cartellone tutti i bug che hanno incontrato. Dopo circa 10/15 m
 * Verde: Basso - Nice to have
 
 Spiegare ai ragazzi i concetti di priorita' e far assegnare a loro le priorita'. 
+
+## Installare le App sui Raspberry Pi.
+
+Per installare le app in locale sui Raspberry Pi, e' necessario:
+
+1. Selezionare "Share" dall'editor di AppLab.
+2. Selezionare l'opzione "Export for Web" (vede immagine):
+3. Assicurarsi che tutti i link funzionino nel server locale.
+
+![Export for Web](images/export.png)
+
+## Appendice - Materiale Workshop 2022
+
+In passato veniva data liberta' ai ragazzi di scegliere cosa fare durante il momento 3. 
+Questo ha portato a risultati molto variabili. Alcuni ragazzi hanno fatto delle app molto complesse..
+
+Si parte mostrando alcune app di esempio ai ragazzi (vedi sotto), spiegando alcune funzioni _avanzate_ di AppLab. I ragazzi devono scegliere se:
+
+* Finire e migliorare la loro calcolatrice
+* Re-implementare uno dei progetti consigliati
+* Creare un'app ex-novo partendo da una loro idea.
+
+E' molto importante capire il livello dei ragazzi e assicurarsi che ognuno stia facendo qualcosa di adeguato alle proprie capacita'.
+
+Se il livello generale e' troppo basso, valutare di non lasciare liberta' ai ragazzi ma consigliare solamente un'app da re-implementare.
+
+Qui un elenco di app che ho scritto su AppLab e che possono essere utili per i ragazzi come idea da re-implementare.
+
+### Music Box
+![Screenshot Musicbox](https://i.imgur.com/SHDytA5.png)
+
+[Codice Sorgente Musicbox](https://studio.code.org/projects/applab/xWSObAhlbYO5gReJ303ct-5IalL5Gz5m-YyQmvP-Qc0)
+
+Questa e' carina perche' e' in tema Star Wars ed utilizza immagini e musiche.
+
+L'app consiste in una serie di bottoni con immagini per ogni personaggio di star wars. Alla pressione del pulsante un suono deve essere riprodotto.
+
+**IMPORTANTE**: Assicurarsi di avere a disposizione gli assett (immagini/audio) da condividere sulla cartella per i ragazzi (si possono scaricare dall'app).
+
+### Canzoniere
+![Screenshot Canzoniere](https://i.imgur.com/7DgXoee.png)
+
+[Codice Sorgente Canzoniere](https://studio.code.org/projects/applab/l9mHY61G9sF27C7zFKzD6TLDCrbWpxNqRMDJO2vAzO8)
+
+L'app canzoniere e' piu' complessa. Utilizza un DB chiave/valore per salvare alcune canzoni scout. Permette ai ragazzi di visulizzare la lista di canzoni ed eventualmente di aggiungerne di nuove.
+
+**IMPORTANTE**: Assicurarsi che i ragazzi che la vogliano implementare siano abbastanza in gamba in modo da non rimanere bloccati.
