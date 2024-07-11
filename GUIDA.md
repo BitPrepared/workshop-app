@@ -8,6 +8,7 @@ I ragazzi avranno la possibilità di imparare i **concetti di base della program
   - [Metariale](#metariale)
   - [Code.org](#codeorg)
   - [Preparazione](#preparazione)
+  - [Momento 0 - Questionario pre-campo](#momento-0---questionario-pre-campo)
   - [Momento 1 - The Hour of Code](#momento-1---the-hour-of-code)
     - [Esempio 1 - La Torta](#esempio-1---la-torta)
     - [Esempio 2 - Il Robot](#esempio-2---il-robot)
@@ -52,6 +53,14 @@ Avere una classe su Code.org e' molto utile perche':
 * Non forza i ragazzi a creare un account su Code.org.
 * Perme di gestire in modo centrallizato la classe e controllare i progressi dei ragazzi.
 * Permette di raccogliere in un unico punto tutte le app realizzate dai ragazzi.
+
+## Momento 0 - Questionario pre-campo
+
+Ai ragazzi viene chiesto di compilare un questionario pre-campo. Questo questionario serve a capire il livello di preparazione dei ragazzi e a capire se ci sono ragazzi che hanno gia' fatto un po' di programmazione:
+
+1. Quali conoscenze informatiche hai?
+2. Hai mai programmato? In quale linguaggio?
+3. Se sì, che progetto hai fatto? Ce lo condivideresti?
 
 ## Momento 1 - The Hour of Code
 
