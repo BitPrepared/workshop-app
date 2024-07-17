@@ -24,6 +24,7 @@ I ragazzi avranno la possibilità di imparare i **concetti di base della program
   - [Appendice - Materiale Workshop 2022](#appendice---materiale-workshop-2022)
     - [Music Box](#music-box)
     - [Canzoniere](#canzoniere)
+  - [Glossario per i ragazzi](#glossario-per-i-ragazzi)
 
 ## Metariale
 
@@ -262,3 +263,32 @@ L'app consiste in una serie di bottoni con immagini per ogni personaggio di star
 L'app canzoniere e' piu' complessa. Utilizza un DB chiave/valore per salvare alcune canzoni scout. Permette ai ragazzi di visulizzare la lista di canzoni ed eventualmente di aggiungerne di nuove.
 
 **IMPORTANTE**: Assicurarsi che i ragazzi che la vogliano implementare siano abbastanza in gamba in modo da non rimanere bloccati.
+
+## Glossario per i ragazzi
+
+* **Informatica**: La scienza che si occupa di elaborare le informazioni che si ricevono, e successivamente di inviarle al destinatario.
+* **Programmazione**: Il processo di creare istruzioni per far svolgere compiti a un computer.
+* **Algoritmo**: Una sequenza di istruzioni che permettono di risolvere un problema o di eseguire un compito. Un algoritmo può essere visto come una “ricetta” da seguire per realizzare qualcosa.
+* **Programma**: Un insieme di istruzioni utili per eseguire una serie di operazioni specifiche su un computer.
+* **Linguaggio** di programmazione: Un insieme di regole e simboli utilizzati per scrivere programmi che i computer possono comprendere ed eseguire.
+* **Cartella** compressa: Un file che contiene uno o più file e/o cartelle che sono stati compressi per ridurre le dimensioni complessive. Il formato di compressione più comune è ".zip". Il grande vantaggio delle cartelle compresse rispetto alle cartelle normali è che possono essere inviate via mail o via messaggio come se fossero dei normali file.
+* **Scratch**: Un ambiente di programmazione visuale utilizzato per insegnare i concetti di programmazione a chi sta muovendo i primi passi in questo mondo. Viene utilizzato per scrivere del codice più facilmente.
+* **JavaScript**: Un linguaggio di programmazione comunemente usato per aggiungere interattività e dinamicità alle pagine web. Si dice che JavaScript è un linguaggio "orientato a eventi".
+* **Evento**: Un'azione o un'occasione significativa che si verifica in un programma. Gli eventi possono includere l'interazione dell'utente con un'interfaccia grafica, come clic del mouse o pressioni di tasti, o possono essere generati internamente dal programma stesso, come il completamento di un'operazione o il verificarsi di un errore. JavaScript permette di gestire gli eventi, cioè consente al programmatore di associare ad un evento gli avvenimenti desiderati.
+* **IDE** (Integrated Development Environment) (Ambiente di sviluppo Integrato): Un software che fornisce strumenti per scrivere, testare e debuggare programmi. Per esempio code.org.
+* **Variabile**: Un'area di memoria utilizzata per memorizzare e manipolare dati in un programma. Essa può variare nel corso del programma.
+* **Costante**: Un valore fisso che non cambia durante l'esecuzione del programma.
+* **Stringa**: Una sequenza di caratteri, come lettere, numeri, spazi o simboli, all'interno di un programma. Le stringhe sono comunemente utilizzate per rappresentare testo. Possono essere delimitate da virgolette singole (' ') oppure virgolette doppie (" "): questi due simboli sono intercambiabili.
+* **Vettore** o array: Una struttura di dati che contiene una sequenza ordinata di elementi dello stesso tipo.
+* **Matrice**: Una struttura di dati bidimensionale composta da righe e colonne di elementi dello stesso tipo.
+* **Condizione**: Una dichiarazione che viene valutata come vera o falsa, determinando il flusso di esecuzione del programma. Viene usata nelle strutture condizionali if else e nei cicli while e for.
+* **Struttura** condizionale: Una parte del codice che consente di eseguire istruzioni diverse in base al verificarsi di determinate condizioni. Comunemente realizzata con l'istruzione "if-else", permette al programma di prendere decisioni e di eseguire determinate azioni in base allo stato dei dati o agli input forniti.
+* **Ciclo** (in inglese: "loop"): Una struttura di controllo che ripete un blocco di istruzioni finché una condizione è vera.
+* **Funzione**: Un blocco di istruzioni o di codice che esegue una specifica operazione o compito all'interno di un programma più grande. Le funzioni sono utilizzate per organizzare e riutilizzare il codice, migliorando la leggibilità e la manutenibilità del programma. Possono accettare input, chiamati argomenti (i quali devono soddisfare i parametri richiesti), eseguire operazioni su di essi e restituire un risultato. Le funzioni possono essere chiamate più volte all'interno di un programma per eseguire lo stesso compito su dati diversi.
+* **Documentazione**: Un insieme di informazioni, istruzioni e spiegazioni che descrivono come utilizzare un software, una libreria o un linguaggio di programmazione. La documentazione fornisce ai programmatori tutte le informazioni necessarie per comprendere il funzionamento di un prodotto software e per utilizzarlo correttamente. Include spesso esempi di codice, descrizioni delle funzioni e dei metodi disponibili, requisiti di sistema e altre informazioni utili.
+* **Debug**: Il processo di individuazione, analisi e risoluzione o di errori, warning o bug che appaiono nel programma.
+* **Errore**: Un problema nel codice che impedisce al programma di essere eseguito.
+* **Bug**: Un difetto nel programma che causa un comportamento indesiderato o imprevisto. È meno grave di un errore perchè almeno il programma è possibile eseguirlo.
+* **Warning**: Un avviso generato dal compilatore o dall'interprete che indica un possibile problema nel codice, ma che non impedisce l'esecuzione del programma. A volte i warnings sono utili, a volte danno solo fastidio. Si consiglia comunque di leggerli quando vengono segnalati.
+* **Interprete**: Un programma che legge ed esegue istruzioni scritte in un linguaggio di programmazione senza tradurle in linguaggio macchina. L'interprete esegue le istruzioni una alla volta mentre il programma è in esecuzione. Non genera dunque nessun file eseguibile, non ne ha bisogno.
+* **Commento**: Una porzione di testo all'interno del codice sorgente di un programma che non viene eseguita dal computer. I commenti sono utilizzati per spiegare il funzionamento del codice, fornire istruzioni per l'uso, documentare le modifiche apportate o semplicemente per rendere più comprensibile il codice ad altri programmatori. Nei linguaggi di programmazione, i commenti sono tipicamente preceduti da un simbolo o una sequenza di caratteri specifici che indicano al compilatore o all'interprete di ignorare il testo fino alla fine della riga. In JavaScript, i commenti su un'unica riga devono essere preceduti da un '//', mentre i commenti su più righe devono essere racchiusi tra /* e */.
